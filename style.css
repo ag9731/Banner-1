@@ -1,0 +1,52 @@
+html, body{
+    height: 100%;
+    margin:0;
+    padding: 0;
+    /* background-color:blue */
+}
+
+.main-image{
+    position:relative;
+    background: url(https://images.all-free-download.com/images/graphiclarge/landscape_nature_background_272057.jpg) no-repeat center;
+    background-size: cover;
+    height:600px; 
+     width:100%;
+    overflow: hidden;
+}
+
+.container{
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+    color: aliceblue;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container h1{
+    margin:0;
+    font-size:66px;
+}
+.container h1 span{
+    border:6px solid white;
+    padding: 6px 14px;
+    display:inline-block;
+}
+.cen{
+    margin: 20px;
+    display:block;
+    font-size: 26px;
+}
+.button{
+    color:blueviolet;
+    padding:10px 24px;
+    background: red;
+    text-decoration: none;
+    color:black;
+    border-radius: 12px;
+    transition: 0.6s;
+}
+button:hover{
+    opacity: .6;
+}
